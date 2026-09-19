@@ -3,7 +3,7 @@ import statsmodels.formula.api as smf
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 import statsmodels.api as sm
 
-# 加载Carseats数据集，来自ISLR包
+# 加载Carseats数据集
 df = pd.read_csv("D:\Chat records\QQ Downloads\python数据分析\Carseats.csv")
 
 # 构建多元回归，ShelveLoc自动生成哑变量
